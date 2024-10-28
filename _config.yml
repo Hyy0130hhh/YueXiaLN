@@ -1,0 +1,63 @@
+# Site settings
+title: 大学生活
+SEOTitle: 李宏骏的博客 | 大学生活
+header-img: img/01.jpg
+email: 24281009@bjtu.edu.cn
+description: "这里是 @Anthony李宏骏 的个人博客，与你一起发现更大的世界 | "
+keyword: "Li hognjun，BJTU，computer science"
+url: "https://huangxuan.me" # your host, for absolute URL
+baseurl: "" # for example, '/blog' if your blog hosted on 'host/blog'
+
+# Publish posts or collection documents with a future date.
+future: true
+
+# Build settings
+highlighter: rouge
+permalink: pretty
+paginate: 10
+exclude:
+  [
+    "less",
+    "node_modules",
+    "Gruntfile.js",
+    "package.json",
+    "README.md",
+    "README.zh.md",
+  ]
+anchorjs: true
+
+# If you have timezone issue (e.g. #68) in China, uncomment to use this:
+#timezone: CN
+
+# Plugins
+plugins: [jekyll-paginate]
+
+# Markdown settings
+markdown: kramdown
+kramdown:
+  input: GFM # use Github Flavored Markdown !important
+  syntax_highlighter_opts:
+    span:
+      line_numbers: false
+    block:
+      line_numbers: true
+      start_line: 1
+
+# Analytics settings
+# Google Analytics
+ga_track_id: "UA-49627206-1" # Format: UA-xxxxxx-xx
+ga_domain: huangxuan.me
+
+# Sidebar settings
+sidebar: true
+sidebar-about-description: "要做一个有理想的大学生：）"
+sidebar-avatar: https://github.com/Huxpro.png # use absolute URL, seeing it's used in both `/` and `/about/`
+
+# Friends
+friends:
+  [
+    { title: "北京交通大学", href: "https://en.bjtu.edu.cn/" },
+    { title: "BJTU计算机学院课程平台", href: "https://citel.bjtu.edu.cn/mlsv3/login/index.php" },
+    { title: "BJTU计算机综合实验室", href: "http://citlab.bjtu.edu.cn/" },
+  ]
+
